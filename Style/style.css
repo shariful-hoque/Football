@@ -1,0 +1,749 @@
+/* Common Css */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 1160px;
+}
+
+/*---------------- 
+Header Part Start
+------------------ */
+
+header{
+  background-color: #2D25A0;
+  padding: 42px;  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 90% 10%;
+}
+
+nav .menu ul{
+    display: flex;
+}
+
+nav .menu ul li{
+    list-style: none;
+}
+
+nav .menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding-right: 36px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+nav .header_btn{
+    text-align: right;
+    ;
+}
+
+.header_btn_icon{
+    padding: 20px 10px;
+    background-color: #E02C6D;
+}
+
+nav .header_btn p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px;
+    background-color: #E02C6D;
+    margin-top: -3px;
+}
+
+nav .header_btn p i{
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+/*---------------- 
+Header Part End
+------------------ */
+
+/*---------------- 
+Banner Part Start
+------------------ */
+
+#banner_part{
+    background-color: #2D25A0;
+    padding: 42px;  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 70px;
+}
+
+.banner_inner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.banner_inner .banner_text h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 80px;
+}
+
+.banner_inner .banner_text button{
+    padding: 15px 24px;
+    background-color: #E02C6D;
+    border: 0;
+    margin-top: 27px;
+}
+
+.banner_inner .banner_text button a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner_inner .banner_text button a i{
+    padding-left: 8px;
+}
+
+.banner_inner .banner_img img{
+    width: 100%;
+    transition: transform 0.3s ease-in;
+}
+
+#banner_part:hover .banner_inner .banner_img img{
+    transform: scale(1.1);
+}
+
+/*---------------- 
+Banner Part End
+------------------ */
+
+/*---------------- 
+Article Part Start
+------------------ */
+#main_article_part{
+    background-color: #FFFFFF;
+    padding: 60px 0;  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.article_part{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 27px;
+    padding: 0 50px;
+}
+
+.article_part .article{
+    justify-content: center;
+    padding: 15px 15px 30px 15px;
+    background-color: #fff;
+    /* box-shadow: 0px 0px 23px -15px #000; */
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.article_part .article img{
+    width: 300px;
+    height: 256px;
+}
+
+.article_part .article h3{
+    color: #18191F;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    padding: 16px 0 10px;
+}
+
+.article_part .article p{
+    color: #6C6C6C;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/*---------------- 
+Article Part End
+------------------ */
+
+/*---------------- 
+Copa America Part Start
+------------------ */
+
+#copa_america{
+    background-color: #FFFFFF;
+    padding: 60px 0;  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.copa_america_inner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 50px;
+    grid-column-gap: 53px;
+    align-items: center;
+}
+
+.copa_america_inner .copa_america_text h2{
+    color: #0A0826;
+    font-size: 45px;
+    line-height: 60px;
+    font-weight: 700;
+}
+
+.copa_america_inner .copa_america_text p{
+    color: #6C6C6C;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.copa_america_inner .copa_america_text button{
+    padding: 15px 24px;
+    background-color: #E02C6D;
+    border: 0;
+    margin-top: 24px;
+}
+
+.copa_america_inner .copa_america_text button a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.copa_america_inner .copa_america_text button a i{
+    padding-left: 8px;
+}
+
+.copa_america_inner .copa_america_img img{
+    width: 567px;
+    height: 427px;
+}
+
+/*---------------- 
+Copa America Part End
+------------------ */
+
+/*----------------------
+Match Schedule Part Start
+------------------------ */
+
+#match_schedule{
+    background-color: #FFFFFF;
+    padding: 60px 0;  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.match_schedule_heading{
+    color: #0A0826;
+    font-size: 45px;
+    line-height: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.match_schedule_inner{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 50px 50px;
+    grid-column-gap: 53px;
+    align-items: center;
+}
+
+.matchs h3{
+    font-size: 27px;
+    text-align: center;
+    color:#E02C6D;
+    padding-bottom: 25px;
+}
+
+.stadium{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 21px;
+    color: #E02C6D;
+}
+
+.match{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.match .club img {
+    width: 120px;
+    height: 120px;
+}
+
+.match .club p{
+    color: #6c6c6c;
+    text-align: center;
+}
+
+.match .match_time h3{
+    font-size: 20px;
+    text-align: center;
+}
+
+/*----------------------
+Match Schedule Part End
+------------------------ */
+
+/*----------------------
+    subscribe Part Start
+------------------------ */
+
+#subscribe{
+    background-color: #FFFFFF;
+    padding: 20px 0;  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subscride_inner{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-column-gap: 40px;
+    background-color: #FDFDFD;
+    box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
+}
+
+.subscride_inner .subscride_img img{
+    width: 100%;
+    height: 100%;
+}
+
+.subscride_inner .subscribe_text h2{
+    font-size: 30px;
+    color: #E02C6D;
+    padding-top: 15px;
+}
+
+.subscride_inner .subscribe_text p{
+    color: #6c6c6c;
+    font-size: 20px;
+}
+
+.subscride_inner .subscribe_text form input{
+    width: 87%;
+    height: 40px;
+}
+
+.subscride_inner .subscribe_text form input:focus{
+    border: 1px solid #E02C6D;
+    padding-left: 10px;
+}
+
+.subscride_inner .subscribe_text form{
+    padding-top: 15px;
+}
+
+.subscride_inner .subscribe_text form input::placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+.subscride_inner .subscribe_text form button{
+    padding: 15px 24px;
+    background-color: #E02C6D;
+    border: 0;
+    margin-top: 15px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+/*----------------------
+    subscribe Part End
+------------------------ */
+
+/*----------------------
+    Footer Part Start
+------------------------ */
+footer{
+    background-color: #FFFFFF;
+    padding: 20px 0;  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer_inner {
+    text-align: center;
+    padding: 100px 0 60px;
+}
+
+.footer_inner img{
+    Width: 483.87px;
+    Height:110px;
+    align-self: center;
+}
+
+.footer_inner p i{
+    width: 18px;
+    height: 18px;
+    color: #969BAB;
+    background-color: #E7E7E8;
+    padding: 7px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 7px;
+}
+
+.copy_right{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+/*----------------------
+    Footer Part End
+------------------------ */
+
+
+
+/*----------------------
+    Responsive For Mobile
+------------------------ */
+
+@media (max-width: 688px){
+
+/*----------------------
+    Common Css For Mobile
+------------------------ */
+
+.container{
+    width: 100%;
+}
+
+/*----------------------
+    Header part
+------------------------ */
+
+header{
+    display: none;
+}
+
+/*----------------------
+        Banner part
+------------------------ */
+
+.banner_inner {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.banner_inner .banner_text h1 {
+    font-size: 42px;
+    line-height: 68px;
+}
+
+.banner_inner .banner_text button {
+    padding: 10px 20px;
+    margin-top: 15px;
+}
+
+.banner_inner .banner_img img {
+    padding-top: 50px;
+}
+
+/*----------------------
+        Article part
+------------------------ */
+
+.article_part {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 27px;
+    padding: 0 40px;
+}
+
+.article_part .article img {
+    width: 100%;
+    height: 300px;
+}
+
+/*----------------------
+    Copa America part
+------------------------ */
+
+#copa_america {
+    padding: 0px 0;
+}
+
+.copa_america_inner {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 40px;
+    grid-column-gap: 0px;
+}
+
+.copa_america_inner .copa_america_text h2 {
+    font-size: 32px;
+    line-height: 50px;
+}
+
+.copa_america_inner .copa_america_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.copa_america_inner .copa_america_text button {
+    padding: 10px 20px;
+    margin-bottom: 30px;
+}
+
+/*----------------------
+    Match Shedule part
+------------------------ */
+
+#match_schedule {
+    padding: 60px 0 0px;
+}
+
+.match_schedule_heading {
+    font-size: 30px;
+    line-height: 44px;
+}
+
+.match_schedule_inner {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px 50px;
+}
+
+.stadium {
+    padding-bottom: 20px;
+}
+
+/*----------------------
+    Subscribe part
+------------------------ */
+
+#subscribe {
+    background-color: #FFFFFF;
+    margin: 30px;
+}
+
+.subscride_inner {
+    grid-template-columns: none;
+    padding:10px 10px 30px; 
+    
+}
+
+.subscride_inner .subscribe_text h2 {
+    font-size: 23px;
+}
+
+.subscride_inner .subscribe_text p {
+    color: #6c6c6c;
+    font-size: 17px;
+}
+
+.subscride_inner .subscribe_text form input {
+    width: 98%;
+    height: 40px;
+}
+
+.subscride_inner .subscribe_text form button {
+    padding: 10px 20px;
+}
+
+/*----------------------
+    Footer part
+------------------------ */
+
+.footer_inner {
+    text-align: center;
+    padding: 0px 0 60px;
+}
+
+.footer_inner img {
+    Width: 80%;
+    Height: 80%;
+    align-self: center;
+}
+
+}
+
+/*----------------------
+Responsive For Tablet
+------------------------ */
+@media (min-width:689px) and (max-width: 992px){
+   
+    /*----------------------
+        Common Css For Mobile
+    ------------------------ */
+    
+    .container{
+        width: 100%;
+    }
+    
+    /*----------------------
+        Header part
+    ------------------------ */
+    header {
+        display: none;
+    }
+
+    /*----------------------
+        Banner part
+------------------------ */
+
+    .banner_inner .banner_text h1 {
+        font-size: 39px;
+        line-height: 62px;
+    }
+
+    /*----------------------
+        Article part
+------------------------ */
+
+    #main_article_part {
+        padding: 60px 20px;
+    }
+
+    .article_part {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 0px;
+    }
+
+    .article_part .article img {
+        width: 100%;
+        height: 256px;
+    }
+
+    /*----------------------
+    Copa America part
+------------------------ */
+
+    .copa_america_inner {
+        padding: 0 30px;
+    }
+
+    .copa_america_inner .copa_america_img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .copa_america_inner .copa_america_text h2 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    #copa_america {
+        padding: 30px 0;
+    }
+
+    /*----------------------
+    Match Shedule part
+------------------------ */
+
+    .match_schedule_heading {
+        font-size: 38px;
+    }
+
+    .match_schedule_inner {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 50px 31px;
+    }
+
+    .stadium {
+        padding-bottom: 30px;
+    }
+
+    /*----------------------
+    Subscribe part
+------------------------ */
+    
+    #subscribe {
+        padding: 0px 0;
+        margin: 20px;
+    }
+
+    .subscride_inner {
+        grid-template-columns: 40% 55%;
+        grid-column-gap: 28px;
+    }
+    
+    .subscride_inner .subscribe_text h2 {
+        font-size: 20px;
+        padding-top: 15px;
+    }
+
+    .subscride_inner .subscribe_text p {
+        font-size: 15px;
+    }
+
+    .subscride_inner .subscribe_text form button {
+        margin-bottom: 20px;
+    }
+
+    .subscride_inner .subscribe_text form input {
+        width: 87%;
+        height: 40px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+    
+
