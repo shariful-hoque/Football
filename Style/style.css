@@ -1,4 +1,6 @@
-/* Common Css */
+/*---------------- 
+Common Css Srart
+------------------ */
 
 *{
     margin: 0;
@@ -6,14 +8,16 @@
 }
 
 body{
-    margin: 0;
-    padding: 0;
     font-family: 'Poppins', sans-serif;
 }
 
 .container{
     width: 1160px;
 }
+
+/*---------------- 
+Common Css End
+------------------ */
 
 /*---------------- 
 Header Part Start
@@ -379,6 +383,7 @@ Match Schedule Part End
     font-size: 15px;
     cursor: pointer;
 }
+
 /*----------------------
     subscribe Part End
 ------------------------ */
@@ -426,8 +431,6 @@ footer{
 /*----------------------
     Footer Part End
 ------------------------ */
-
-
 
 /*----------------------
     Responsive For Mobile
@@ -611,7 +614,7 @@ Responsive For Tablet
 
     /*----------------------
         Banner part
------------------------- */
+    ------------------------ */
 
     .banner_inner .banner_text h1 {
         font-size: 39px;
@@ -620,7 +623,7 @@ Responsive For Tablet
 
     /*----------------------
         Article part
------------------------- */
+    ------------------------ */
 
     #main_article_part {
         padding: 60px 20px;
@@ -638,7 +641,7 @@ Responsive For Tablet
 
     /*----------------------
     Copa America part
------------------------- */
+    ------------------------ */
 
     .copa_america_inner {
         padding: 0 30px;
@@ -660,7 +663,7 @@ Responsive For Tablet
 
     /*----------------------
     Match Shedule part
------------------------- */
+    ------------------------ */
 
     .match_schedule_heading {
         font-size: 38px;
@@ -677,7 +680,7 @@ Responsive For Tablet
 
     /*----------------------
     Subscribe part
------------------------- */
+    ------------------------ */
     
     #subscribe {
         padding: 0px 0;
@@ -706,44 +709,7 @@ Responsive For Tablet
         width: 87%;
         height: 40px;
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    }
-    
+   
+ }
 
+    
